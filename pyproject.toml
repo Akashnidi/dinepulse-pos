@@ -1,0 +1,13 @@
+[project]
+name = "restaurant-billing-app"
+version = "1.0.0"
+description = "Offline-first Windows Takeaway POS – FastAPI + SQLite + Vanilla JS"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.162.0",
+    "pydantic>=2.14.3",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+pos = "main:main"
